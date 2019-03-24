@@ -1,0 +1,18 @@
+
+.centro {
+    -fx-background-color: blue;
+    -fx-background-image: url("fon6.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+#text{
+    -fx-font:  15px Centurygothic;
+    -fx-fill: white;
+}
+.button{
+    -fx-effect: dropshadow(two-pass-box , darkgray, 10, 0.0 , 4, 5);
+    -fx-background-color: rgba(234, 255, 252, 0.7);
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+}
